@@ -27,7 +27,7 @@ public class Stepdefs {
 	static int numberOfProducts; 
 	@Given("Alex is on the login page")
 	public void alex_is_on_the_login_page() {
-		System.setProperty("webdriver.chrome.driver", "C:\Users\PDC3B-Training.PDC3B\eclipse-samiksha\Demo998\resources\chromedriver_win32-78\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\Users\\PDC3B-Training.PDC3B\\eclipse-samiksha\\Demo998\\resources\\chromedriver_win32-78\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
